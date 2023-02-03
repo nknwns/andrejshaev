@@ -1,7 +1,7 @@
 <template>
 	<footer class="footer">
 		<div class="container">
-			<div class="footer__information">
+			<div class="row">
 				<p class="footer__author">Created Andrej Shaev.</p>
 				<p class="footer__university">Student <a href="https://new.mospolytech.ru/" target="_blank" class="link">Moscow Polytechnic University</a>.</p>
 			</div>
