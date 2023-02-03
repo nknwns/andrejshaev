@@ -2,7 +2,7 @@
 	<main>
 		<h1 class="hidden">Андрей Шаев - обо мне и моем портфолио</h1>
 		<TheHero/>
-		<TheSkills/>
+		<TheSkills />
 		<TheWorks/>
 		<TheContacts/>
 	</main>
@@ -16,6 +16,14 @@ import TheContacts from "~/components/TheContacts";
 
 export default {
 	name: 'IndexPage',
-	components: {TheContacts, TheWorks, TheSkills, TheHero}
+	components: {TheContacts, TheWorks, TheSkills, TheHero},
+	data() {
+		return {
+			skills: []
+		}
+	},
+	async asyncData({store}) {
+		await store.dispatch('skills/loadSkills');
+	}
 }
 </script>
