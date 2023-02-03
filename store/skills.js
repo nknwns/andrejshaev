@@ -3,10 +3,6 @@ export const state = () => ({
 	currentSkill: 0
 })
 
-export const getters = {
-
-}
-
 export const mutations = {
 	setSkills(state, skills) {
 		state.skills = skills;

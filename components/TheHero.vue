@@ -14,7 +14,7 @@
 						<p>Я начинающий веб-разработчик.</p>
 					</div>
 					<div class="col-12 col-md-7 hero__description">
-						<p>Я студент <a href="https://new.mospolytech.ru/" class="link">Moscow Polytechnic University</a>. Готов воплотить ваши идеи в реальность.</p>
+						<p>Я студент <a href="https://new.mospolytech.ru/" target="_blank" class="link">Moscow Polytechnic University</a>. Готов воплотить ваши идеи в реальность.</p>
 					</div>
 					<div class="hero__button">
 						<a href="#contact" class="link link--button">Связаться со мной</a>

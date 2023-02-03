@@ -2,7 +2,7 @@
 	<main>
 		<h1 class="hidden">Андрей Шаев - обо мне и моем портфолио</h1>
 		<TheHero/>
-		<TheSkills />
+		<TheSkills/>
 		<TheWorks/>
 		<TheContacts/>
 	</main>
@@ -23,7 +23,7 @@ export default {
 		}
 	},
 	async asyncData({store}) {
-		await store.dispatch('skills/loadSkills');
+		await Promise.all([store.dispatch('skills/loadSkills'), store.dispatch('works/loadWorks')]);
 	}
 }
 </script>
