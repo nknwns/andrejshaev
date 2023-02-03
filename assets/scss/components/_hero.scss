@@ -1,0 +1,42 @@
+.hero {
+	min-height: calc(100vh - 100px);
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	padding: 100px 0;
+
+	&__wrapper {
+		width: 100%;
+	}
+
+	&__subtitle {
+		font-family: var(--font-mono);
+		font-weight: 400;
+		font-size: 16px;
+		margin-bottom: 30px;
+		color: var(--green);
+	}
+
+	&__title {
+		font-weight: 600;
+		font-size: 70px;
+		color: var(--lightest-slate);
+	}
+
+	&__pre-description {
+		margin-top: 10px;
+		margin-bottom: 20px;
+		font-weight: 600;
+		font-size: 70px;
+	}
+
+	&__description {
+		line-height: 1.3;
+	}
+
+	&__button {
+		margin-top: 50px;
+	}
+}

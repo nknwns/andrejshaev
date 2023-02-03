@@ -1,5 +1,6 @@
 <template>
 	<main>
+		<h1 class="hidden">Андрей Шаев - обо мне и моем портфолио</h1>
 		<TheHero/>
 		<TheSkills/>
 		<TheWorks/>
