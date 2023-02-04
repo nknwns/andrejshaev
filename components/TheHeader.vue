@@ -20,6 +20,9 @@
 							<li class="navigation__item">
 								<a href="#contact" class="navigation__link">Контакты</a>
 							</li>
+							<li class="navigation__item">
+								<a href="/documents/andrejshaev.pdf" target="_blank" class="navigation__link">Резюме</a>
+							</li>
 						</ul>
 					</nav>
 				</div>

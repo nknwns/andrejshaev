@@ -13,7 +13,7 @@ export const actions = {
 		try {
 			commit('setContacts', []);
 
-			let contacts = await this.$axios.$get('/contacts.json');
+			let contacts = await this.$axios.$get('/api/contacts.json');
 
 			commit('setContacts', contacts);
 		} catch (e) {

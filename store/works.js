@@ -17,7 +17,7 @@ export const actions = {
 		try {
 			commit('setWorks', []);
 
-			let works = await this.$axios.$get('/works.json');
+			let works = await this.$axios.$get('/api/works.json');
 
 			commit('setWorks', works);
 		} catch (e) {

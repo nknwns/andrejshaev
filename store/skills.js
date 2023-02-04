@@ -17,7 +17,7 @@ export const actions = {
 		try {
 			commit('setSkills', []);
 
-			let skills = await this.$axios.$get('/skills.json');
+			let skills = await this.$axios.$get('/api/skills.json');
 
 			commit('setSkills', skills);
 		} catch (e) {
