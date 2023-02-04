@@ -1,0 +1,59 @@
+.contact {
+	padding: 100px 0;
+
+	&__wrapper {
+		background-color: var(--light-navy);
+		padding: 50px 100px;
+	}
+
+	&__title {
+		color: var(--lightest-slate);
+		display: flex;
+		margin-bottom: 40px;
+		justify-content: center;
+
+		&::before {
+			content: "";
+			display: block;
+			position: relative;
+			margin: auto 20px;
+			width: 300px;
+			height: 1px;
+			background-color: var(--lightest-navy);
+		}
+
+		&::after {
+			content: "";
+			display: block;
+			position: relative;
+			margin: auto 20px;
+			width: 300px;
+			height: 1px;
+			background-color: var(--lightest-navy);
+		}
+
+	}
+
+	&__description {
+		text-align: center;
+	}
+
+	.description {
+		&__title {
+			color: var(--green);
+			margin-bottom: 20px;
+		}
+
+		&__socials {
+			display: flex;
+			justify-content: center;
+			gap: 10px;
+			margin-top: 10px;
+
+			&::before{
+				content: "Сети и мессенджеры:";
+			}
+
+		}
+	}
+}

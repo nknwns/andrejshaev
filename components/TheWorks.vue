@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="works__wrapper">
-					<h2 class="works__title">My Works</h2>
+					<h2 class="works__title">Мои работы</h2>
 					<WorksItem
 						v-for="(work, index) in works"
 						:work="work"

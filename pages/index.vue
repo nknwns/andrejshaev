@@ -23,7 +23,12 @@ export default {
 		}
 	},
 	async asyncData({store}) {
-		await Promise.all([store.dispatch('skills/loadSkills'), store.dispatch('works/loadWorks')]);
+		await Promise.all(
+			[
+				store.dispatch('skills/loadSkills'),
+				store.dispatch('works/loadWorks'),
+				store.dispatch('contacts/loadContacts')
+			]);
 	}
 }
 </script>
