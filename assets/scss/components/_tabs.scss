@@ -1,7 +1,14 @@
 .tabs {
 	&__titles {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-bottom: 10px;
+
+		@media screen and (min-width: 576px) {
+			margin-bottom: 0;
+			flex-direction: column;
+		}
 	}
 
 	&__title {
@@ -14,6 +21,12 @@
 		transition-duration: .3s;
 		transition-property: background-color, color;
 		transition-timing-function: ease-in-out;
+
+		width: 33%;
+
+		@media screen and (min-width: 576px) {
+			width: max-content;
+		}
 
 		&:hover {
 			color: var(--green);
@@ -28,9 +41,10 @@
 
 	&__content {
 		margin-left: 20px;
-		overflow: hidden;
+		overflow-x: hidden;
 		position: relative;
 		width: 100%;
+		min-height: 205px;
 	}
 
 	&__description {
@@ -38,12 +52,20 @@
 		top: 0;
 
 		opacity: 0;
-		transform: translateX(-100%);
+		transform: translateY(-100%);
 		transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+
+		@media screen and (min-width: 576px) {
+			transform: translate(-100%, 0);
+		}
 
 		&.active {
 			opacity: 1;
-			transform: translateX(0);
+			transform: translateY(0);
+
+			@media screen and (min-width: 576px) {
+				transform: translateX(0);
+			}
 		}
 	}
 
