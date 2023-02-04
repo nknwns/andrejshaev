@@ -4,7 +4,7 @@
 		:class="{'works__item--right': right}"
 	>
 		<div
-			class="item__content col-12 col-lg-6 col-xl-5"
+			class="item__content col-12 col-lg-6"
 			:class="{'item__content--right': right}"
 		>
 			<p class="item__type">{{ work.type }}</p>
@@ -36,19 +36,19 @@
 				</li>
 			</ul>
 		</div>
-		<a href="https://chess-dark.web.app/" target="_blank" class="item__preview col-12 col-lg-6 col-xl-7">
-			<img class="item__image" :src="'/img/' + work.image" alt="chess">
+		<a :href="work.link" target="_blank" class="item__preview col-12 col-lg-6">
+			<img class="item__image" :src="'/img/works/' + work.image" :alt="work.title + ' preview site'">
 		</a>
 	</div>
 </template>
 
 <script>
+import Work from "@/interfaces/Work";
+
 export default {
 	name: "WorksItem",
 	props: {
-		work: {
-			title: String
-		},
+		work: Work,
 		right: {
 			type: Boolean,
 			default: false

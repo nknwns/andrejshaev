@@ -7,7 +7,8 @@
 					<WorksItem
 						v-for="(work, index) in works"
 						:work="work"
-						:right="index % 2"
+						:key="work.id"
+						:right="Boolean(index % 2)"
 					/>
 				</div>
 			</div>
@@ -26,6 +27,9 @@ export default {
 		...mapState({
 			works: state => state.works.works
 		})
+	},
+	mounted() {
+		console.log(this.works[0])
 	}
 }
 </script>

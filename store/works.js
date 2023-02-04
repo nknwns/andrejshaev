@@ -1,3 +1,5 @@
+import Work from "@/interfaces/Work";
+
 export const state = () => ({
 	works: []
 })
@@ -18,6 +20,7 @@ export const actions = {
 			commit('setWorks', []);
 
 			let works = await this.$axios.$get('/api/works.json');
+			works = works.map(element => new Work(element));
 
 			commit('setWorks', works);
 		} catch (e) {
