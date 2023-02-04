@@ -1,9 +1,9 @@
 <template>
-	<section class="skills" id="skills">
+	<section class="skills section" id="skills">
 		<div class="container">
 			<div class="row">
 				<div class="skills__wrapper">
-					<h2 class="skills__title">Мои умения</h2>
+					<h2 class="skills__title title">Мои умения</h2>
 					<div class="skills__tabs tabs">
 						<div class="tabs__titles">
 							<a v-for="skill in skills"

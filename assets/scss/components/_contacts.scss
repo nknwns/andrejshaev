@@ -1,37 +1,21 @@
 .contact {
-	padding: 100px 0;
-
 	&__wrapper {
 		background-color: var(--light-navy);
-		padding: 50px 100px;
+		padding: 50px;
+
+		@media screen and (min-width: 768px){
+			padding: 50px 100px;
+		}
 	}
 
 	&__title {
-		color: var(--lightest-slate);
-		display: flex;
-		margin-bottom: 40px;
-		justify-content: center;
+		&::after, &::before {
+			display: none;
 
-		&::before {
-			content: "";
-			display: block;
-			position: relative;
-			margin: auto 20px;
-			width: 300px;
-			height: 1px;
-			background-color: var(--lightest-navy);
+			@media screen and (min-width: 768px) {
+				display: block;
+			}
 		}
-
-		&::after {
-			content: "";
-			display: block;
-			position: relative;
-			margin: auto 20px;
-			width: 300px;
-			height: 1px;
-			background-color: var(--lightest-navy);
-		}
-
 	}
 
 	&__description {
@@ -47,11 +31,17 @@
 		&__socials {
 			display: flex;
 			justify-content: center;
+			flex-wrap: wrap;
 			gap: 10px;
 			margin-top: 10px;
 
 			&::before{
+				width: 100%;
 				content: "Сети и мессенджеры:";
+
+				@media screen and (min-width: 768px){
+					width: max-content;
+				}
 			}
 
 		}

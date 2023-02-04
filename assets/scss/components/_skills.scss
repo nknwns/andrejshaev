@@ -1,42 +1,6 @@
 .skills {
-	padding: 100px 0;
-
-	&__wrapper {
-		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
-	}
-
-	&__title {
-		color: var(--lightest-slate);
-		display: flex;
-		margin-bottom: 40px;
-
-		&::before {
-			content: "";
-			display: block;
-			position: relative;
-			margin: auto 20px;
-			width: 300px;
-			height: 1px;
-			background-color: var(--lightest-navy);
-		}
-
-		&::after {
-			content: "";
-			display: block;
-			position: relative;
-			margin: auto 20px;
-			width: 300px;
-			height: 1px;
-			background-color: var(--lightest-navy);
-		}
-	}
-
 	&__tabs {
 		display: flex;
 		width: 100%;
 	}
-
-
 }

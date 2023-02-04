@@ -4,7 +4,7 @@
 		:class="{'works__item--right': right}"
 	>
 		<div
-			class="item__content"
+			class="item__content col-12 col-lg-6 col-xl-5"
 			:class="{'item__content--right': right}"
 		>
 			<p class="item__type">{{ work.type }}</p>
@@ -36,11 +36,9 @@
 				</li>
 			</ul>
 		</div>
-		<div class="item__preview">
-			<a href="https://chess-dark.web.app/" target="_blank">
-				<img class="item__image" :src="'/img/' + work.image" alt="chess">
-			</a>
-		</div>
+		<a href="https://chess-dark.web.app/" target="_blank" class="item__preview col-12 col-lg-6 col-xl-7">
+			<img class="item__image" :src="'/img/' + work.image" alt="chess">
+		</a>
 	</div>
 </template>
 

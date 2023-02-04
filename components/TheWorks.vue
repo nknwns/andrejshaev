@@ -1,9 +1,9 @@
 <template>
-	<section class="works" id="works">
+	<section class="works section" id="works">
 		<div class="container">
 			<div class="row">
 				<div class="works__wrapper">
-					<h2 class="works__title">Мои работы</h2>
+					<h2 class="works__title title title--left">Мои работы</h2>
 					<WorksItem
 						v-for="(work, index) in works"
 						:work="work"

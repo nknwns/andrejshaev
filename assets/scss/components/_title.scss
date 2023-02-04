@@ -1,0 +1,40 @@
+.title {
+	color: var(--lightest-slate);
+	display: flex;
+	margin-bottom: 40px;
+	justify-content: center;
+
+	&::after, &::before {
+		content: "";
+		display: none;
+		position: relative;
+		margin: auto 20px;
+		width: 100px;
+		height: 1px;
+		background-color: var(--lightest-navy);
+
+		@media screen and (min-width: 576px) {
+			display: block;
+		}
+
+		@media screen and (min-width: 992px) {
+			width: 200px;
+		}
+
+		@media screen and (min-width: 1200px) {
+			width: 300px;
+		}
+	}
+
+	&--left {
+		@media screen and (min-width: 992px) {
+			justify-content: start;
+		}
+
+		&::before {
+			@media screen and (min-width: 992px) {
+				display: none;
+			}
+		}
+	}
+}

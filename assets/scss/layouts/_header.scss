@@ -1,8 +1,21 @@
 .header {
+	padding-top: 50px;
+
+	@media screen and (min-width: 576px) {
+		padding-top: 0;
+	}
+
 	&__wrapper {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		height: 100px;
+		gap: 20px;
+
+		flex-direction: column;
+
+		@media screen and (min-width: 576px) {
+			height: 100px;
+			flex-direction: row;
+		}
 	}
 }

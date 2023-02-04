@@ -1,10 +1,13 @@
 .navigation {
-	&__list {
-		display: flex;
+	display: none;
+
+	@media screen and (min-width: 576px) {
+		display: block;
 	}
 
-	&__item {
-		margin: 0 5px;
+	&__list {
+		display: flex;
+		gap: 10px;
 	}
 
 	&__link {

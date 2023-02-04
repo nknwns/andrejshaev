@@ -78,9 +78,9 @@
 		&__item {
 			padding-left: 30px;
 			margin-bottom: 10px;
-			position: relative;
 			display: flex;
 			align-items: center;
+			flex-wrap: wrap;
 			gap: 10px;
 
 			&::before {
