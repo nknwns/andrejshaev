@@ -4,26 +4,9 @@
 			<div class="row">
 				<div class="skills__wrapper">
 					<h2 class="skills__title title">Мои умения</h2>
-					<div class="skills__tabs tabs">
-						<div class="tabs__titles">
-							<a v-for="skill in skills"
-							   :key="skill.id"
-							   :class="{'active': (skill.id === currentSkill)}"
-							   @click.prevent="setCurrentSkill(skill.id)"
-							   href="#"
-							   class="tabs__title"
-							>
-								{{ skill.title }}
-							</a>
-						</div>
-						<div class="tabs__content">
-							<SkillsItem
-								v-for="skill in skills"
-								:key="skill.id"
-								:skill="skill"
-								:active="currentSkill === skill.id"
-							/>
-						</div>
+					<div class="skills__tabs">
+						<SkillsTab :skills="skills.hard" />
+						<SkillsTab :skills="skills.soft" />
 					</div>
 				</div>
 			</div>
@@ -34,10 +17,11 @@
 <script>
 import SkillsItem from "~/components/Skills/SkillsItem";
 import {mapMutations, mapState} from "vuex";
+import SkillsTab from "@/components/Skills/SkillsTab";
 
 export default {
 	name: "TheSkills",
-	components: {SkillsItem},
+	components: {SkillsTab, SkillsItem},
 	data() {
 		return {}
 	},

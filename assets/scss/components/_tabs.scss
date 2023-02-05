@@ -1,12 +1,18 @@
 .tabs {
+	display: flex;
+	flex-direction: column;
+
+	@media screen and (min-width: 576px) {
+		width: 50%;
+		flex-direction: row;
+	}
+
 	&__titles {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		margin-bottom: 10px;
 
 		@media screen and (min-width: 576px) {
-			margin-bottom: 0;
 			flex-direction: column;
 		}
 	}
@@ -22,10 +28,15 @@
 		transition-property: background-color, color;
 		transition-timing-function: ease-in-out;
 
-		width: 33%;
+		width: 50%;
+
+		&--full {
+			width: 100%;
+		}
 
 		@media screen and (min-width: 576px) {
 			width: max-content;
+			min-width: 100%;
 		}
 
 		&:hover {
@@ -40,11 +51,15 @@
 	}
 
 	&__content {
-		margin-left: 20px;
 		overflow-x: hidden;
 		position: relative;
 		width: 100%;
-		min-height: 205px;
+		min-height: 250px;
+		margin-top: 10px;
+
+		@media screen and (min-width: 576px) {
+			margin-left: 20px;
+		}
 	}
 
 	&__description {
@@ -94,7 +109,7 @@
 		}
 
 		&__content {
-			margin-top: 25px;
+			margin-top: 15px;
 		}
 
 		&__item {

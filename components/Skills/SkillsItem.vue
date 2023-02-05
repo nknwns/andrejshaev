@@ -9,7 +9,7 @@
 		</h3>
 		<p v-if="skill.experience" class="description__experience">Опыт использования: {{ skill.experience }}</p>
 		<div class="description__content">
-			<ul class="description__list">
+			<ul v-if="skill.technologies" class="description__list">
 				<li
 					v-for="technology in skill.technologies"
 					class="description__item"
@@ -18,6 +18,9 @@
 					<span class="description__count" v-if="technology.experience">Опыт использования: {{ technology.experience }}</span>
 				</li>
 			</ul>
+			<p v-else>
+				{{ skill.description }}
+			</p>
 		</div>
 	</div>
 </template>
