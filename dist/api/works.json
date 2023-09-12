@@ -1,0 +1,393 @@
+[
+	{
+		"id": 0,
+		"title": "Кабинет Центра Карьеры",
+		"type": "Сервис для трудоустройства студентов, 2022 - ....",
+		"link": "http://career.std-1715.ist.mospolytech.ru/",
+		"image": "career.jpg",
+		"description": "Сайт с личным кабинетом студентов и работодателей специально для Центра Карьеры Московского Политеха. Сайт находится в разработке в рамках Проектной деятельности, но уже имеет MVP на Frontend'е и готовый API.",
+		"languages": [
+			{
+				"id": 0,
+				"title": "HTML"
+			},
+			{
+				"id": 1,
+				"title": "SCSS"
+			},
+			{
+				"id": 2,
+				"title": "Nuxt"
+			}
+		],
+		"links": [
+			{
+				"id": 0,
+				"title": "Site",
+				"source": "http://career.std-1715.ist.mospolytech.ru/"
+			},
+			{
+				"id": 1,
+				"title": "GitHub",
+				"source": "https://github.com/pd-career-2021/frontend"
+			}
+		]
+	},
+	{
+		"id": 1,
+		"title": "Anygrade Frontend",
+		"type": "Шаблоны для опросов, 2023",
+		"link": "http://anygrade-frontend.std-1715.ist.mospolytech.ru/",
+		"image": "anygrade.jpg",
+		"description": "Сервис с шаблонами для проведения опросов среди сотрудников. Frontend разрабатывался для уже готового backend'а. Создано несколько страниц и фейковые данные для тестирования.",
+		"languages": [
+			{
+				"id": 0,
+				"title": "HTML"
+			},
+			{
+				"id": 1,
+				"title": "SCSS"
+			},
+			{
+				"id": 2,
+				"title": "Nuxt"
+			}
+		],
+		"links": [
+			{
+				"id": 0,
+				"title": "Site",
+				"source": "http://anygrade-frontend.std-1715.ist.mospolytech.ru/"
+			},
+			{
+				"id": 1,
+				"title": "GitHub",
+				"source": "https://github.com/nknwns/anygrade-frontend"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"title": "Storage of things",
+		"type": "Сервис хранения вещей, 2023",
+		"link": "http://storage-of-things.std-1715.ist.mospolytech.ru/",
+		"image": "storage.jpg",
+		"description": "Сервис хранения вещей, разработанный в рамках экзамена по одной из дисциплин во время обучения в вузе. Минимальный жизнеспособный продукт.",
+		"languages": [
+			{
+				"id": 0,
+				"title": "HTML + SCSS"
+			},
+			{
+				"id": 1,
+				"title": "Blade"
+			},
+			{
+				"id": 2,
+				"title": "Laravel (PHP)"
+			}
+		],
+		"links": [
+			{
+				"id": 0,
+				"title": "Site",
+				"source": "http://storage-of-things.std-1715.ist.mospolytech.ru/"
+			},
+			{
+				"id": 1,
+				"title": "GitHub",
+				"source": "https://github.com/nknwns/storage-of-things"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"title": "Vue Order",
+		"type": "Система заказов и отгрузок, 2022",
+		"link": "http://vue-order.std-1715.ist.mospolytech.ru/",
+		"image": "vue-order.jpg",
+		"description": "SPA-приложение, созданное в рамках экзамена по одной из дисциплин в вузе. Заказы, отгрузки, dropdown и смена темы.",
+		"languages": [
+			{
+				"id": 0,
+				"title": "HTML"
+			},
+			{
+				"id": 1,
+				"title": "SCSS"
+			},
+			{
+				"id": 2,
+				"title": "Vue 3 + Vuex"
+			}
+		],
+		"links": [
+			{
+				"id": 0,
+				"title": "Site",
+				"source": "http://vue-order.std-1715.ist.mospolytech.ru/"
+			},
+			{
+				"id": 1,
+				"title": "GitHub",
+				"source": "https://github.com/nknwns/vue-order"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"title": "Llegal",
+		"type": "Верстка по макету, 2022",
+		"link": "http://llegal.std-1715.ist.mospolytech.ru/",
+		"image": "llegal.jpg",
+		"description": "Задачей являлась разработка минимального функционала социальной сети (друзья, страницы пользователей, мессенджер). Сделано все было за короткий срок и полностью с копией дизайна старого VK на чистом PHP.",
+		"languages": [
+			{
+				"id": 0,
+				"title": "HTML"
+			},
+			{
+				"id": 1,
+				"title": "SCSS"
+			}
+		],
+		"links": [
+			{
+				"id": 0,
+				"title": "Site",
+				"source": "http://llegal.std-1715.ist.mospolytech.ru/"
+			},
+			{
+				"id": 1,
+				"title": "GitHub",
+				"source": "https://github.com/nknwns/llegal"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"title": "Sorty",
+		"type": "Мессенджер с каналами, 2022",
+		"link": "http://sorty.std-1715.ist.mospolytech.ru/",
+		"image": "sorty.jpg",
+		"description": "Подобие мессенджера с каналами и областями знаний с хештегами. Во время обучения в вузе мы разбирали часть идеи создания данного сервиса. Я закончил идею до конца. Чистый PHP.",
+		"languages": [
+			{
+				"id": 0,
+				"title": "HTML + CSS"
+			},
+			{
+				"id": 1,
+				"title": "Native JavaScript"
+			},
+			{
+				"id": 2,
+				"title": "Native PHP"
+			}
+		],
+		"links": [
+			{
+				"id": 0,
+				"title": "Site",
+				"source": "http://sorty.std-1715.ist.mospolytech.ru/"
+			},
+			{
+				"id": 1,
+				"title": "GitHub",
+				"source": "https://github.com/nknwns/sorty"
+			}
+		]
+	},
+	{
+		"id": 6,
+		"title": "Chess Dark",
+		"type": "Игра в браузере, 2021 год",
+		"link": "https://chess-dark.web.app/",
+		"image": "chess.jpg",
+		"description": "Минималистичные шахматы, созданные на чистом JavaScript во время занятий на учёбе.",
+		"languages": [
+			{
+				"id": 0,
+				"title": "HTML"
+			},
+			{
+				"id": 1,
+				"title": "CSS"
+			},
+			{
+				"id": 2,
+				"title": "Native JavaScript"
+			}
+		],
+		"links": [
+			{
+				"id": 0,
+				"title": "Site",
+				"source": "https://chess-dark.web.app/"
+			},
+			{
+				"id": 1,
+				"title": "GitHub",
+				"source": "https://github.com/nknwns/chess-dark"
+			}
+		]
+	},
+	{
+		"id": 7,
+		"title": "Trytoguessword",
+		"type": "Шуточный сайт угадывания слова, 2021",
+		"link": "http://trytoguessword.std-1715.ist.mospolytech.ru/",
+		"image": "trytoguessword.jpg",
+		"description": "Задумка сайта - дать пользователю возможность отгадать загаданное слово. При неверном вводе GIF должны злить пользователя и смешить. Есть возможность запустить перебор значений и ждать..",
+		"languages": [
+			{
+				"id": 0,
+				"title": "HTML + CSS"
+			},
+			{
+				"id": 1,
+				"title": "Native JavaScript"
+			}
+		],
+		"links": [
+			{
+				"id": 0,
+				"title": "Site",
+				"source": "http://trytoguessword.std-1715.ist.mospolytech.ru/"
+			},
+			{
+				"id": 1,
+				"title": "GitHub",
+				"source": "https://github.com/nknwns/trytoguessword"
+			}
+		]
+	},
+	{
+		"id": 8,
+		"title": "Antonina Group",
+		"type": "Верстка сайта, 2020 год",
+		"link": "http://antonina-group.std-1715.ist.mospolytech.ru/",
+		"image": "antonina-group.jpg",
+		"description": "В рамках обучения веб-разработке в 2020 году я вместе с наставником сверстал макет, предоставленный компанией Антонина. Верстка создана по устаревшим технологиям, но работает на различных устройствах.",
+		"languages": [
+			{
+				"id": 0,
+				"title": "HTML"
+			},
+			{
+				"id": 1,
+				"title": "CSS"
+			},
+			{
+				"id": 2,
+				"title": "jQuery"
+			}
+		],
+		"links": [
+			{
+				"id": 0,
+				"title": "Site",
+				"source": "http://antonina-group.std-1715.ist.mospolytech.ru/"
+			},
+			{
+				"id": 1,
+				"title": "GitHub",
+				"source": "https://github.com/nknwns/antonina-group"
+			}
+		]
+	},
+	{
+		"id": 9,
+		"title": "Flappy Bird",
+		"type": "Игра в браузере, 2020",
+		"link": "http://flappy-bird.std-1715.ist.mospolytech.ru/",
+		"image": "flappy-bird.jpg",
+		"description": "Во время занятий на учебе было скучно, поэтому я решил создать на JS Flappy Bird внутри браузера. Получилось с урезанными функционалом, но вполне себе рабочая версия. Изначально использовался jQuery, но во время публикации синтаксис и сама библиотека были удалены из-за ненадобности (устарел).",
+		"languages": [
+			{
+				"id": 0,
+				"title": "HTML"
+			},
+			{
+				"id": 1,
+				"title": "CSS"
+			},
+			{
+				"id": 2,
+				"title": "Native JavaScript"
+			}
+		],
+		"links": [
+			{
+				"id": 0,
+				"title": "Site",
+				"source": "http://flappy-bird.std-1715.ist.mospolytech.ru/"
+			},
+			{
+				"id": 1,
+				"title": "GitHub",
+				"source": "https://github.com/nknwns/flappy-bird"
+			}
+		]
+	},
+	{
+		"id": 10,
+		"title": "Teacher resume",
+		"type": "Сайт-визитка, 2020",
+		"link": "http://teacher-portfolio.std-1715.ist.mospolytech.ru/",
+		"image": "teacher.jpg",
+		"description": "В 2020 году мой преподаватель спросил у меня, могу ли я сделать для него сайт-визитку. Да, могу Сайт разработан по устаревшим методологиям и технологиям, но он создан и имеет вполне себе хороший вид до сих пор.",
+		"languages": [
+			{
+				"id": 0,
+				"title": "HTML"
+			},
+			{
+				"id": 1,
+				"title": "CSS"
+			},
+			{
+				"id": 2,
+				"title": "Native JavaScript"
+			}
+		],
+		"links": [
+			{
+				"id": 0,
+				"title": "Site",
+				"source": "http://teacher-portfolio.std-1715.ist.mospolytech.ru/"
+			},
+			{
+				"id": 1,
+				"title": "GitHub",
+				"source": "https://github.com/nknwns/teacher-portfolio"
+			}
+		]
+	},
+	{
+		"id": 11,
+		"title": "VK",
+		"type": "Мини социальная сеть, 2020",
+		"link": "https://github.com/nknwns/vk",
+		"image": "vk.jpg",
+		"description": "Задачей являлась разработка минимального функционала социальной сети (друзья, страницы пользователей, мессенджер). Сделано все было за короткий срок и полностью с копией дизайна старого VK на чистом PHP.",
+		"languages": [
+			{
+				"id": 0,
+				"title": "HTML + CSS"
+			},
+			{
+				"id": 1,
+				"title": "Native PHP"
+			}
+		],
+		"links": [
+			{
+				"id": 0,
+				"title": "GitHub",
+				"source": "https://github.com/nknwns/vk"
+			}
+		]
+	}
+]
